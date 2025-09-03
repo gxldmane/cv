@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap&subset=latin,cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon"
+        href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="%2310b981"/><stop offset="1" stop-color="%233b82f6"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="%23111827"/><path d="M18 44L32 20l14 24" fill="none" stroke="url(%23g)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>' />
+</head>
+
+<body class="theme-transition body-bg bg-slate-900 text-gray-100 min-h-screen">
+    <header class="sticky top-0 z-40">
+        <div class="hidden md:block mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-4">
+            <div
+                class="flex items-center justify-between rounded-xl bg-gray-900/60 backdrop-blur px-3 py-2 ring-1 ring-gray-800">
+                <nav class="flex items-center gap-6 text-sm">
+                    <a href="#about" class="nav-link hover:text-emerald-400 theme-transition" data-i18n="about">Обо
+                        мне</a>
+                    <a href="#experience" class="nav-link hover:text-emerald-400 theme-transition"
+                        data-i18n="experience">Опыт работы</a>
+                    <a href="#contacts" class="nav-link hover:text-emerald-400 theme-transition"
+                        data-i18n="contacts">Контакты</a>
+                </nav>
+                <button id="language-toggle" data-role="lang-toggle"
+                    class="inline-flex px-3 py-1.5 rounded-md bg-gray-800 hover:bg-gray-700 theme-transition ring-1 ring-gray-700 text-sm">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+        <div class="md:hidden absolute right-4 mb-6">
+            <button data-role="lang-toggle"
+                class="px-3 py-1.5 rounded-md bg-gray-800 hover:bg-gray-700 theme-transition ring-1 ring-gray-700 text-sm">EN</button>
+        </div>
+        <section id="about" class="mb-16">
+            <h2 class="text-2xl font-semibold mb-4 text-center md:text-left" data-i18n="about">Обо мне</h2>
+            <div class="bg-gray-900/60 backdrop-blur p-6 rounded-lg shadow-md ring-1 ring-gray-800">
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                    <div class="shrink-0">
+                        <div id="avatar"
+                            class="w-28 h-28 rounded-full ring-2 ring-emerald-500/50 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-3xl select-none">
+                            👤</div>
+                    </div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h1 id="user-name" class="text-2xl font-semibold mb-2"></h1>
+                        <p id="about-text" class="text-lg leading-relaxed"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-16">
+            <h2 class="text-2xl font-semibold mb-4 text-center md:text-left" data-i18n="experience">Опыт работы</h2>
+            <div id="experience-cards" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+        </section>
+
+        <section id="contacts">
+            <h2 class="text-2xl font-semibold mb-4 text-center md:text-left" data-i18n="contacts">Контакты</h2>
+            <div class="bg-gray-900/60 backdrop-blur p-6 rounded-lg shadow-md ring-1 ring-gray-800">
+                <div id="contact-links" class="flex flex-wrap gap-4 justify-center md:justify-start"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8 py-6">
+        <div class="text-center text-sm text-slate-400">© <span id="year"></span> gxldmane</div>
+    </footer>
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/state.js"></script>
+    <script src="./assets/js/render.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
