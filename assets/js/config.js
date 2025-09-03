@@ -3,8 +3,8 @@ window.PortfolioConfig = {
         user: {
             name: { ru: "Тимофей Ходотаев", en: "Timofey Khodotaev" },
             about: {
-                ru: "21 год. PHP‑разработчик с 3‑летним опытом. Бакалавр IT (ПГНИУ). Работаю с чистым PHP и Laravel — создаю надёжные API и сервисы. Уверенно использую Node.js/Express, знаю React. Сейчас углубляюсь в Go и ищу возможности применять его в продакшене.",
-                en: "21 years old. PHP developer with 3 years of experience. BSc in IT (PSU). I build reliable APIs and services with vanilla PHP and Laravel. Comfortable with Node.js/Express and use React when it makes sense. Currently diving into Go and looking for opportunities to use it in production."
+                ru: "21 год. PHP‑разработчик с 3‑летним опытом. Бакалавр IT (ПГНИУ). Работаю с чистым PHP и Laravel — создаю надёжные API и сервисы. Уверенно использую Node.js/Express, знаю React. Сейчас углубляюсь в Go и ищу возможности применять его в продакшене. Открыт для сотрудничества и коммерческих предложении.",
+                en: "21 years old. PHP developer with 3 years of experience. BSc in IT (PSU). I build reliable APIs and services with vanilla PHP and Laravel. Comfortable with Node.js/Express and use React when it makes sense. Currently diving into Go and looking for opportunities to use it in production. Open to cooperation and commercial proposals."
             },
             avatarUrl: "assets/img/avatar.jpg",
         },
