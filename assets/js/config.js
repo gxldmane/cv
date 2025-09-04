@@ -14,7 +14,7 @@ window.PortfolioConfig = {
                 company: { ru: "AlternativaGames", en: "AlternativaGames" },
                 period: { ru: "Октябрь 2024 - настоящее время", en: "October 2024 - Present" },
                 description: {
-                    ru: "Разработка и поддержка высоконагруженных веб-приложений на Laravel и Node.js с использованием вебсокетов и брокеров сообщений. Разработка внутриигровых игр и ивентов. Работа с CI/CD и инфраструктурой Kubernetes.",
+                    ru: "Разработка и поддержка высоконагруженных веб-приложений на Laravel и Node.js. Разработка внутриигровых игр и ивентов. Работа с CI/CD и инфраструктурой Kubernetes.",
                     en: "Development and maintenance of high-load web applications on Laravel and Node.js using WebSockets and message brokers. Development of in-game games and events. Working with CI/CD and Kubernetes infrastructure.",
                 },
                 stack: ["PHP", "Laravel 10+", "Javascript", "React", "Node.js", "Express", "Kubernetes", "Docker", "MongoDB", "WebSockets", "RabbitMQ"],
